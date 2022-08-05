@@ -1,0 +1,129 @@
+body {
+    background-color: rgba(252, 252, 20, 0.831);}
+
+h1 {
+    color: rgb(206, 0, 0); 
+    text-align: center; 
+    font-size: 105px; 
+    font-family: 'Amatic SC', cursive;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.heading {
+    text-align: center; }
+
+nav { 
+    text-align: center;
+    position: sticky;
+    top: 0px; 
+    border: .5px solid black; 
+    margin: 10px; 
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(206, 0, 0);
+   
+    
+}
+
+a {
+    margin: 0 30px; 
+    text-align: center;
+    text-decoration: none; 
+    margin: 0 20px;
+    
+}
+
+a:link {color: rgb(34, 0, 204);}
+a:visited {color: aqua; }
+a:active {color: black;}
+
+.logophoto {}
+
+.body {
+    text-align: center; 
+    margin: 20;}
+
+li {
+    list-style-type: square; 
+    text-align: center;}
+
+h2 {
+    text-align: center;}
+
+p {
+    text-align: center;}
+
+.content {
+    border: .5px solid black;
+    margin: 5px; 
+    padding: 10px 20px;
+    border-color: rgb(247, 51, 51);}
+
+span {font-weight: 700; color: rgb(247, 51, 51);} 
+
+img {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    padding: 15px 40px;
+}
+
+
+
+ul {text-align: center;}
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  footer {
+    display: block;
+    border: .5px solid rgb(247, 51, 51);
+}
+
+audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.map {
+    width: 300;
+    height: 300;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}

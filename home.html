@@ -3,54 +3,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Final Project/css/finalstyles.css">
+    <link rel="stylesheet" href="../final-project/css/style.css">
     <title>Bob's Burgers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/4aa7cd6752.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="header">
-        <h1>
-            <img src="../Final Project/img/bblogo.jpg" alt="Bob's Burgers Logo">
-        </h1>
-        <p>From our family to yours, let us serve you the best burger next to the ocean!</p>
+    <div class="header" id="home">
+        <h1>BOB'S BURGERS</h1>
+        <p class="heading">From our family to yours, let us serve you the best burger next to the ocean!</p>
     </div>
     
     <nav>
-        <a href="">Home</a>
-        <a href="">Menu</a>
-        <a href="">Our Story</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#burgers">Burger of the Day</a>
+        <a href="#events">Upcoming Events</a>
+        <a href="#ourstory">Our Story</a>
+        <a href="#contact">Contact Us</a>
    </nav>
-   <div class="burgers">  
-      <p>Burgers of the Day</p> 
-        <li>
-            
-        </li>
-    </div>
-    
-    
-    <div class="events">
-    
-        UPCOMING EVENTS:
-        
-        <li>
-            Trick or treat with us and the best damn candy of the year: XXXXXX!
-        </li>
-       
-        <li>
-            Trot with all the turkeys at the Annual Turkey Trot!
-        </li>
-       
-        <li>
-            Check out our Christmas displays through the Holiday Season!
-        </li>
-       
-        <li>
-            Spend Superbowl Sunday with famous NFL player, Sandy Fries, at Bob's Burgers!
-       </li>
-           
-    </div>
 
+   <div id="burgers" class="content">
+        <h2>Burger of the Day</h2>
+        <p>For the week of August 1, 2022:</p>
+        <li>MONDAY: Bet It All On Black Garlic Burger</li>
+        <li>TUESDAY: Onion-Tended Consequences Burger</li>
+        <li>WEDNESDAY: Texas Chainsaw Massa-Curd Burger</li>
+        <li>THURSDAY: Pickle My Funny Bone Burger</li>
+        <li>FRIDAY: If Looks Could Kale Burger</li>
+        <li>SATURDAY: Itsy Bitsy Teeny Weenie Yellow Polka-Dot Zucchini Burger</li>
+        <li>SUNDAY: Hummus A Tune Burger</li>
+        <p> <span>New Burgers EVERYDAY!</span> </p>
+   </div>
 
+   <div id="events" class="content">
+        <h2>Upcoming Events</h2>
+        <li>10/31/2022: Trick or Treat with us and the best damn candy of the year: Sour Sack Babies</li>
+        <li>11/24/2022: Trot with all the turkeys at the Annual Turkey Trot!</li>
+        <li>12/1 to 12/31/2022: Check out our Christmas displays through the Holiday Season!</li>
+        <li>2/12/2023: Spend Superbowl Sunday with famous NFL player, Sandy "Can Can" Frye! </li>
+   </div>
+
+   <div id="ourstory" class="content">
+        <h2>Our Story</h2>
+        <p>Our story begins first at Big Bob's Diner when my Bobby would make burgers with his father. Bob wanted to be creative with his burgers beginning with the first one: Baby, You Can Chive My Car Burger. It had pickles as wheels... Big Bob did not like the creative burgers and little Bob didn't want to work there any longer. Then Bob and I married, opened the restuarant, and had a few kids in the meantime. Bob's Burgers is now family owned and run by Bob and I, Linda. Our three babies, Tina, Gene, and Louise, help in the restaurant. Even Handyman Teddy will be in the restaurant most of the day. DO NOT sit on his stool though or it will be a loooooong day. Come visit us near the Boardwalk!  </p>
+        <p>P.S. There is no human meat in our bugers!! Even if a certain Health Inspector says there is. He is a liar. I hope he doesn't see this. <span> IF YOU'RE SEEING THIS, HUGO, WE DO NOT USE HUMAN MEAT.</span> There was an incident one time with horse meat, but we fixed that. Only a few people ate it. It's fine. They're alive.  </p>
+        <div>
+          <img src="../final-project/img/bobsburgersfamily.jpg" alt="Family Pictures">
+          <img src="../final-project/img/bobsburgersoutside.jpeg" alt="">
+
+        </div>
+   </div>
+
+   <div id="contact" class="content">
+        <h2>Contact Us</h2>
+        <p>You can fill this form out and it will be sent to our email, and we will read your email when we finally remember the password to the email account. I think it was tossed out because it was written on a napkin. </p>
+          <div class="container">
+               <form action="">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" id="full name" placeholder="Your Name">
+
+                    <label for="email">Your Email Address</label>
+                    <input type="text" name="emailaddress" id="your email address" placeholder="Your Email Address">
+
+                    <label for="subject">Subject</label>
+                    <textarea name="Subject" id="subject" height 200px placeholder="Write Something..."></textarea>
+
+                    <input type="submit" value="Submit">
+               </form>
+
+          </div>
+   </div>
+
+   <footer>
+     <p>
+          <a class="logophoto" href="https://www.google.com/search?q=bob%27s+burgers+images&spell=1&sa=X&ved=2ahUKEwjIl7-Z16n5AhUoIDQIHW9KAHoQBSgAegQIARAy&biw=843&bih=613&dpr=1"><img src="../final-project/img/bblogo.jpg" alt="Bob's Burgers Logo"></a>
+          
+     </p>
+     <div class="footernav">
+          <p><a href="#home">Home</a></p> 
+          <p><a href="#burgers">Burger of the Day</a></p> 
+          <p><a href="#events">Upcoming Events</a></p>  
+          <p><a href="#ourstory">Our Story</a></p> 
+          <p><a href="#contact">Contact Us</a></p> 
+     </div>
+     
+     <p>
+          <a href="https://youtu.be/dQw4w9WgXcQ" class="fa fa-facebook" target="_blank"></a>
+          <a href="https://youtu.be/dQw4w9WgXcQ" class="fa fa-twitter" target="_blank"></a>
+          <a href="https://youtu.be/dQw4w9WgXcQ" class="fa fa-instagram" target="_blank"></a>
+     </p>
+     
+     <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6699379.89230788!2d-125.67522387307324!3d34.92698254487056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e6a9afc81023b%3A0xf48e2c1896bb1e67!2sSanta%20Cruz%20Wharf!5e0!3m2!1sen!2sus!4v1659496528716!5m2!1sen!2sus"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+     </div>
+
+     <div>
+          <audio src="../final-project/badass.mp3" controls autoplay> Music: https://www.bensound.com</audio>
+
+     </div>
+
+     <div>
+          <p>Site by Geo Customs Inc.</p>  
+          <p>Copyright 2022</p> 
+     </div>
+
+   </footer>
 </body>
 </html>
